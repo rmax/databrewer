@@ -11,12 +11,15 @@ DataBrewer
 
 .. image:: https://img.shields.io/travis/rolando/databrewer.svg
         :target: https://travis-ci.org/rolando/databrewer
+
 .. image:: https://codecov.io/github/rolando/databrewer/coverage.svg?branch=master
     :alt: Coverage Status
     :target: https://codecov.io/github/rolando/databrewer
+
 .. image:: https://landscape.io/github/rolando/databrewer/master/landscape.svg?style=flat
     :target: https://landscape.io/github/rolando/databrewer/master
     :alt: Code Quality Status
+
 .. image:: https://requires.io/github/rolando/databrewer/requirements.svg?branch=master
     :alt: Requirements Status
     :target: https://requires.io/github/rolando/databrewer/requirements/?branch=master
