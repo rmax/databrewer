@@ -24,7 +24,7 @@ DataBrewer
     :alt: Requirements Status
     :target: https://requires.io/github/rolando/databrewer/requirements/?branch=master
 
-The missing data manager.
+The missing datasets manager.
 
 * Free software: MIT license
 * Documentation: https://databrewer.readthedocs.org.

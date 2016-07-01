@@ -6,7 +6,7 @@ cookiecutter:
     github_username: rolando
     project_name: DataBrewer
     project_package: databrewer
-    project_short_description: The missing data manager.
+    project_short_description: The missing datasets manager.
     project_slug: databrewer
     pypi_username: rolando
     use_codecov: y

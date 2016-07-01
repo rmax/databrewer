@@ -30,7 +30,7 @@ def read_requirements(filename):
 setup(
     name='databrewer',
     version=read_file('VERSION'),
-    description="The missing data manager.",
+    description="The missing datasets manager.",
     long_description=read_rst('README.rst') + '\n\n' + read_rst('HISTORY.rst'),
     author="Rolando Espinoza",
     author_email='rolando at rmax.io',
