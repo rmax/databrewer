@@ -29,6 +29,10 @@ The missing datasets manager.
 * Free software: MIT license
 * Documentation: https://databrewer.readthedocs.org.
 
+.. image:: http://i.imgur.com/FBsIV7g.gif
+    :alt: DataBrewer preview
+
+
 Features
 --------
 
