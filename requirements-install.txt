@@ -1,1 +1,9 @@
 # This packages are required to install and run our package.
+awesome-slugify>=1.6
+click>=6.0,<7.0
+jsonschema>=2.5
+pyyaml>=3.0,<4.0
+requests>=2.8
+six>=1.10
+tqdm>=4.0
+whoosh>=2.7,<3.0

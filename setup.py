@@ -53,4 +53,9 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
+    entry_points={
+        'console_scripts': [
+            'databrewer = databrewer.__main__:main',
+        ],
+    },
 )
