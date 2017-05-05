@@ -11,7 +11,7 @@ def find_packages(path):
 
 
 def read_file(filename):
-    with open(filename) as fp:
+    with io.open(filename) as fp:
         return fp.read().strip()
 
 
