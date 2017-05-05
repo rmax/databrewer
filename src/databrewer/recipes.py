@@ -7,7 +7,6 @@ import jsonschema
 
 from fnmatch import fnmatchcase
 from urllib.parse import urlparse, unquote
-from urllib.request import urlretrieve
 
 from .utils import load_yaml, download_file, ensure_dir
 
