@@ -1,15 +1,15 @@
-# Config file for automatic testing at travis-ci.org
-# This file will be regenerated if you run travis_pypi_setup.py
-
 language: python
 python: 3.5
 sudo: false
 
 env:
+  matrix:
   - TOXENV=py35
   - TOXENV=py34
   - TOXENV=py27
   - TOXENV=pypy
+  global:
+    secure: R89Ki/P85MTwtucAl4B751s8rfj/PNctuKFl8IR25DOZ8LBp9W8GT3t4i2sQbGDsuHKmP0Wpxz5gXtIQaMUM9KhUfgTg+gSO+aLMUgOBHCfJmCFA8KG5OQ4RFUZgO118wwptCdt2DurL6icptKN5rLBtIHxuxeINYOUKfb31CNpkj68e6NOo7m8z1cQGgpEqjNWBKZvYN9FW0DnAqBiR5ef3ftotyntRdKTX5b6DE84dYBs/OLCn0duSGMUxbFpdBO6HFaMP0FSY4CVYQ8mVAu4UQ+ocdFTtovlUpiqpGypjgdP8DZHtyJ9AW7+6ZK4JkOOzGW62gTjamEpPwZRAmHJ4BZeO6lMF7J95NsfaDipM9pF5l0i27Bm1pxz5b/5p2ijJ9/E2UcblXd2V6/6h4ZegEB3TWIXDCTSd4ea4v16V4nTn7kfMYfOUByQ8ZSvNveFRXIMZ7OhDUT8+rY+LJB4iutWsMRCcl14bGSg6YpBgvuDUOOBU0VKgo5/auy0Wfxo8bVv4LnkNpnWj60DIELnd4Ts6ub/i5Da4aPKBabvxekmkVPyXjlEGCouePETD9uT7eAWgaP8mPllK004uQnRPt+2s5+KKVcwWcoTrWk2d1H8rbN/Gt3qeSNOG7C4adk7xIkbc/LRuwfJYjiNbPL1bMj9DmTUXRfwUGkyXrF8=
 
 matrix:
   allow_failures:
@@ -59,10 +59,10 @@ notifications:
 
 deploy:
   provider: pypi
-  distributions: "sdist bdist_wheel"
+  distributions: sdist bdist_wheel
   user: darkrho
   password:
-    secure: "Pgcj+Otx9o2MxOuXibvz9LUd5DqlW0jaKDScVOAcFT+//U0esjRqY08bRFQlrSTXokJa6X/dVZlb2mQE8L4vr7mLFspRGO4FByK34L089/ETwsLKI2rks2zVbmPSyweL3sz88EXLKmYs7WsKtCnET67qra6hreKbO67ALAh5WWk="
+    secure: "vLUDGyNVJZWGLRYCZ2Ot7TnBojs/SJDIrumVRQRw7eeezavBV+XW6neay9U8cdRaBATwt5aBGDAJ883QKWZkY0h//34eAtBC3cxzR9AvTsE6TWQVmux3hN/CcrOgChtDwZGMsZM50Qk+rxx8Sjx+NpXcKBuZIju0VAK2e6k/wA1HfE0ckAzL9FFMGRg2ObyGNTmW/HPpbO3hYBg5nDmeryjSoAr/SmFDrSWySXntjx+smyZWzijv0BQjLwyBJtf0Iohjbvrdwkt92XVwnnoVQJbBO5T4n1vMXYzwgUSF01pr52P1X+XWIeXFKofY396oLNme6QaKp+BVYJPu0Nv+l1KHs7m8fB3OH0s4585fNxwstkzL53RegZFhf2585SOPeDDmP6Le/H1slrLE7ddnWRGsDVjnCwYHQNikh2boOWEOzDL9GiEyNoE3ERrLgHLUb7TTr1kFoQdlaS4VgT4WKU4O6Mzg7FHZoWIBT8LpgcpjQmVPQimhO19ITzEZBX3wM2NhczBu4z/eZn+QD3UiWCCoR/1kWSwLfwJl6eiTD0Gy7DlBwzwxYV3bQIdYNk9byuIwdkbvxRFnxBJfr9rI4MzJzDQQvedgPm8pgcztD2FjXgAIXPemcaiimughqKufvNJrAv0zV0DbCGIeLfnE/L4jaJT6pRrsPuYAnYIJiA4="
   on:
     tags: true
     all_branches: true
