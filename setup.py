@@ -32,7 +32,7 @@ setup(
     version=read_file('VERSION'),
     description="The missing datasets manager.",
     long_description=read_rst('README.rst') + '\n\n' + read_rst('HISTORY.rst'),
-    author="Rolando Espinoza",
+    author="Rolando (Max) Espinoza",
     author_email='rolando@rmax.io',
     url='https://github.com/rolando/databrewer',
     packages=list(find_packages('src')),

@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'DataBrewer'
-copyright = u'2016, Rolando Espinoza'
+copyright = u'2016-2017, Rolando (Max) Espinoza'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -206,7 +206,7 @@ latex_elements = {
 latex_documents = [
     ('index', 'databrewer.tex',
      u'DataBrewer Documentation',
-     u'Rolando Espinoza', 'manual'),
+     u'Rolando (Max) Espinoza', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -237,7 +237,7 @@ latex_documents = [
 man_pages = [
     ('index', 'databrewer',
      u'DataBrewer Documentation',
-     [u'Rolando Espinoza'], 1)
+     [u'Rolando (Max) Espinoza'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -252,7 +252,7 @@ man_pages = [
 texinfo_documents = [
     ('index', 'databrewer',
      u'DataBrewer Documentation',
-     u'Rolando Espinoza',
+     u'Rolando (Max) Espinoza',
      'databrewer',
      'One line description of project.',
      'Miscellaneous'),
