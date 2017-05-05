@@ -100,12 +100,12 @@ def cli_list(obj):
 
 
 @cli.command('search')
-@click.argument('query')
+@click.argument('query', nargs=-1)
 @click.pass_obj
 @requires_index
 def cli_search(obj, query):
     index = SearchIndex(obj['rc']['index_dir'])
-    results = index.search(query)
+    results = index.search(' '.join(query))
     output = _list_format(results)
     if output:
         _echo(output)
