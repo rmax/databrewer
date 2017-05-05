@@ -7,3 +7,4 @@ requests>=2.8
 six>=1.10
 tqdm>=4.0
 whoosh>=2.7,<3.0
+toolz
