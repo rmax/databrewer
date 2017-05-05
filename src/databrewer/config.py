@@ -62,7 +62,8 @@ def load_rc(default_rc_path,
             logger.error("Could not find '%s', using defaults", envfile)
 
     meta = (defaults or {}).copy()
-    meta.update(load_yaml(default_rc_path) or {})
+    if os.path.exists(default_rc_path):
+        meta.update(load_yaml(default_rc_path) or {})
 
     jsonschema.validate(meta, schema)
 
