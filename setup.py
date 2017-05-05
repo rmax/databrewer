@@ -33,7 +33,7 @@ setup(
     description="The missing datasets manager.",
     long_description=read_rst('README.rst') + '\n\n' + read_rst('HISTORY.rst'),
     author="Rolando Espinoza",
-    author_email='rolando at rmax.io',
+    author_email='rolando@rmax.io',
     url='https://github.com/rolando/databrewer',
     packages=list(find_packages('src')),
     package_dir={'': 'src'},
@@ -43,7 +43,7 @@ setup(
     license="MIT",
     keywords='databrewer',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
