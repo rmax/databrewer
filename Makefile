@@ -120,7 +120,7 @@ release:
 	@echo "To do a release, follow the steps:"
 	@echo "- bumpversion release"
 	@echo "- Review and commit"
-	@echo "- git tag -a \`cat VERSION\`"
+	@echo "- git tag -a v\`cat VERSION\`"
 	@echo "- git push --follow-tags"
 
 dist-upload: clean check dist
